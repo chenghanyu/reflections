@@ -1,0 +1,17 @@
+# Question 1:
+What happens when you initialize a repository? Why do you need to do it?
+
+# Answer 1:
+When initializing a repo, a hidden file .git is created to keep track of the history of the folder. To do the version control for a folder, we need first initializing a repo.
+
+If you accidentally add a file to the staging area, you can remove it using git reset. For example, if you accidentally add lesson_2_reflections.txt, but don’t want it to be committed yet, run git reset lesson_2_reflections.txt and the file will be removed from the staging area, but it will still be in your working directory.
+
+
+# Question 2:
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+# Answer 2:
+The staging area contains files that are to be committed to the repository. It let us know whcih files are going to be commited, and more importantly, we can put files to the staging area separately. 
+
+
+
