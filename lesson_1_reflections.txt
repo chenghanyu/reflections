@@ -1,0 +1,32 @@
+Question 1: 
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+Answer 1:
+Many command line tools, including Git, are less useful if your files contain very long lines. For example, if you use diff to compare two files that have all their content on the same line, diff will only show you that the two files are different. 
+
+Question 2: 
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+Answer 2: 
+We can check how our codes and programs evolve with time.
+
+Question 3:
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Answer 3:
+Some codes are usually related to each other, like html and css, and so it is more reasonable to commit them all together at the same time. 
+
+Question 4:
+How can you use the commands git log and git diff to view the history of files?
+
+Answer 4:
+we can use git log to view the history of files including a message of changing files and commit id. We can use git diff to compare two files, knowing what have been added and deleted.
+
+Question 5:
+How might using version control make you more confident to make changes that could break something?
+
+Answer 5:
+We can always know which files make mistakes and go back to them to correct them.
+
+
+
